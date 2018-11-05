@@ -1,5 +1,60 @@
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+</head>
 <body>
-<h1>Hallo Welt</h1>
+<h1 id="infovis-exercise-2018-11-05">InfoVis Exercise 2018-11-05</h1>
+<h2 id="schedule">Schedule:</h2>
+<ol style="list-style-type: decimal">
+<li>Group Finding (20 minutes)</li>
+<li>Scaffolding for algorithm presentation</li>
+</ol>
+<h1 id="goal-for-today">Goal for Today:</h1>
+<p>Setting up something to visualize an algorithm.</p>
+<p>Example: <a href="https://github.com/jheer/barnes-hut" class="uri">https://github.com/jheer/barnes-hut</a></p>
+<h2 id="todays-stack">Todays Stack:</h2>
+<ol style="list-style-type: decimal">
+<li>git</li>
+<li>Github Pages</li>
+<li>idyll</li>
+</ol>
+<h2 id="stages">Stages:</h2>
+<ol style="list-style-type: decimal">
+<li>Getting a github account</li>
+<li>Publishing HTML on your github.io page</li>
+<li>Getting Idyll to run</li>
+<li>Deploying Idyll to your github.io page</li>
+<li>Outlook: d3js</li>
+</ol>
+<h3 id="github-pages">Github Pages</h3>
+<ul>
+<li><a href="https://pages.github.com/" class="uri">https://pages.github.com/</a></li>
+<li><a href="https://help.github.com/articles/user-organization-and-project-pages/" class="uri">https://help.github.com/articles/user-organization-and-project-pages/</a></li>
+</ul>
+<h3 id="html-allgemein">HTML allgemein</h3>
+<p><a href="https://internetingishard.com/" class="uri">https://internetingishard.com/</a></p>
+<h3 id="git">git</h3>
+<ul>
+<li><a href="http://rogerdudler.github.io/git-guide/" class="uri">http://rogerdudler.github.io/git-guide/</a></li>
+<li><a href="https://git-scm.com/book/en/v2" class="uri">https://git-scm.com/book/en/v2</a></li>
+<li><a href="https://try.github.io/" class="uri">https://try.github.io/</a></li>
+<li><a href="https://www.atlassian.com/git/tutorials" class="uri">https://www.atlassian.com/git/tutorials</a></li>
+</ul>
+<h3 id="deploying-idyll">Deploying Idyll:</h3>
+<pre><code>idyll build</code></pre>
+<p>baut ein directory /build/ in dem alle assets gespeichert werden. Dieses directory kann man dann bei github deployen.</p>
+<h3 id="idyll-overview">Idyll Overview</h3>
+<p>Web-Editor: <a href="https://idyll-lang.org/editor" class="uri">https://idyll-lang.org/editor</a></p>
+<p>Example Project: <a href="https://github.com/mathisonian/dimensionality-reduction" class="uri">https://github.com/mathisonian/dimensionality-reduction</a></p>
+<p>Using d3 with Idyll:</p>
+<p><a href="https://idyll-lang.org/gallery/d3" class="uri">https://idyll-lang.org/gallery/d3</a></p>
+<hr />
+<p>Converting markdown to html:</p>
+<pre><code>pandoc test1.md -f markdown -t html -s -o test1.html</code></pre>
 </body>
 </html>
